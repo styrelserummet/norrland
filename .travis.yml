@@ -1,0 +1,7 @@
+language: c
+
+script: make
+
+addons:
+    apt_packages:
+      - pandoc
