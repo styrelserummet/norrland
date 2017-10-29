@@ -5,4 +5,6 @@ script: make
 addons:
     apt_packages:
       - pandoc
-      - texlive-latex-base
+      - texlive-latex-recommended
+      - texlive-fonts-recommended
+      - lmodern
