@@ -1,10 +1,11 @@
 language: c
 
-script: make norrland.epub
+script: make
 
 addons:
     apt_packages:
       - pandoc
+      - aspell-sv
 
 notifications:
     irc: "chat.freenode.net#norrland_novell"
