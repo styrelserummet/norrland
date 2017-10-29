@@ -8,3 +8,6 @@ addons:
       - texlive-latex-recommended
       - texlive-fonts-recommended
       - lmodern
+
+notifications:
+    irc: "chat.freenode.net#norrland_novell"
